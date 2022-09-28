@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T10:48:39.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Z7UUF3PwJ7JUWgxX3c1v" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-28T13:52:06.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DgV_obO4TFy1ZNjSTBwa" version="20.3.7" type="github">
   <diagram id="JvDVV9NeDetFQlG3Wl1B" name="A">
     <mxGraphModel dx="981" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="10" y="60" width="350" height="350" as="geometry" />
         </mxCell>
         <mxCell id="f_60cojlA7F2bTlnvgEP-1" value="Dynamics365" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;outlineConnect=0;verticalAlign=top;align=center;shape=mxgraph.office.clouds.office_365;" parent="1" vertex="1">
-          <mxGeometry x="60" y="270" width="70" height="40" as="geometry" />
+          <mxGeometry x="150" y="300" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k0NBo0IUl5kI6EIjeEdj-2" value="Gateway" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;verticalAlign=top;labelPosition=center;verticalLabelPosition=top;align=center;horizontal=1;" edge="1" parent="1">
           <mxGeometry x="1" y="10" width="50" height="50" relative="1" as="geometry">
