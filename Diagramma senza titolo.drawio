@@ -1,87 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T09:19:17.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eJFe15pSyidV4MwShGKW" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T15:43:20.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1Gk3N48O9yn_USde-RVJ" version="20.3.7" type="github">
   <diagram id="JvDVV9NeDetFQlG3Wl1B" name="C">
     <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-24" value="Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;align=right;verticalAlign=top;strokeColor=#6c8ebf;gradientColor=#7ea6e0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="10" y="28" width="370" height="512" as="geometry" />
+          <mxGeometry x="14" y="28" width="370" height="512" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-9" value="MS Power Apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=right;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="150" y="40" width="110" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-2" value="Cloud&lt;br&gt;Azure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;align=right;" vertex="1" parent="1">
-          <mxGeometry x="155" y="237.5" width="200" height="182.5" as="geometry" />
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-2" value="Backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;align=right;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="109" y="237.5" width="245" height="182.5" as="geometry" />
         </mxCell>
         <mxCell id="k0NBo0IUl5kI6EIjeEdj-2" value="Gateway" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;verticalAlign=top;labelPosition=center;verticalLabelPosition=top;align=center;horizontal=1;" parent="1" edge="1">
           <mxGeometry x="1" y="10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="540" as="sourcePoint" />
             <mxPoint x="400" y="14" as="targetPoint" />
             <mxPoint x="10" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0NBo0IUl5kI6EIjeEdj-3" value="Intranet Data Center Terna" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;verticalAlign=top;align=right;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="440" y="28" width="502" height="502" as="geometry" />
+        <mxCell id="k0NBo0IUl5kI6EIjeEdj-3" value="Intranet Data Center Terna" style="whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;align=right;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="470" y="28" width="432" height="512" as="geometry" />
         </mxCell>
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-20" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png;fillColor=none;" vertex="1" parent="k0NBo0IUl5kI6EIjeEdj-3">
-          <mxGeometry x="348.6111111111111" y="97.61111111111111" width="124.10555555555555" height="61.355555555555554" as="geometry" />
+          <mxGeometry x="300" y="99.55555555555554" width="106.8" height="52.8" as="geometry" />
         </mxCell>
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://www.tibco.com/sites/tibco/files/tibco-logo-social.png;fillColor=none;" vertex="1" parent="k0NBo0IUl5kI6EIjeEdj-3">
-          <mxGeometry x="120" y="58" width="84" height="44" as="geometry" />
+          <mxGeometry x="103.26693227091634" y="59.155378486055774" width="72.28685258964144" height="37.864541832669325" as="geometry" />
         </mxCell>
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="k0NBo0IUl5kI6EIjeEdj-3" source="M08hCCHfUI6YIoEPK-Oi-7" target="M08hCCHfUI6YIoEPK-Oi-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-2" target="M08hCCHfUI6YIoEPK-Oi-3">
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://media-exp1.licdn.com/dms/image/C560BAQEGJo5v9k8ZDg/company-logo_200_200/0/1655671707143?e=2147483647&amp;v=beta&amp;t=UiiXIy95ZIrZbHXYLa4lt300Hu-b72lVrPvfABNY2bM;fillColor=none;" vertex="1" parent="k0NBo0IUl5kI6EIjeEdj-3">
+          <mxGeometry x="120" y="249" width="84" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.161;exitY=-0.012;exitDx=0;exitDy=0;entryX=0.432;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-2" target="M08hCCHfUI6YIoEPK-Oi-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="264" y="235" as="sourcePoint" />
             <mxPoint x="314" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-3" value="Frontend internet&lt;br&gt;Compensazioni" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://valto.co.uk/wp-content/uploads/2020/03/PowerAppsLogo.png;fillColor=none;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="66" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-5" value="Report" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://www.bluenovation.co.uk/wp-content/uploads/2017/11/PowerBI-Logo.png;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="163" y="440" width="64" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://media-exp1.licdn.com/dms/image/C560BAQEGJo5v9k8ZDg/company-logo_200_200/0/1655671707143?e=2147483647&amp;v=beta&amp;t=UiiXIy95ZIrZbHXYLa4lt300Hu-b72lVrPvfABNY2bM;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="583" y="304" width="84" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-10" target="M08hCCHfUI6YIoEPK-Oi-3">
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.135;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-5" target="M08hCCHfUI6YIoEPK-Oi-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-10" value="Utenti Esterni" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/laptop_client.svg;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="80" width="45" height="50" as="geometry" />
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-5" value="Report" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://www.bluenovation.co.uk/wp-content/uploads/2017/11/PowerBI-Logo.png;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="440" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-10" target="M08hCCHfUI6YIoEPK-Oi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-10" value="Utenti Esterni" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/laptop_client.svg;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="87" width="45" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-13" target="M08hCCHfUI6YIoEPK-Oi-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-13" value="Utenti Terna" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/laptop_client.svg;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="295" width="45" height="50" as="geometry" />
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-13" value="Utenti Terna" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/laptop_client.svg;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="283" width="45" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;rounded=0;startFill=0;exitX=1.009;exitY=0.419;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-17" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;startFill=0;exitX=0.772;exitY=0.632;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-42" target="M08hCCHfUI6YIoEPK-Oi-8">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="310.03910999999994" y="316.682" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="sourcePoint" />
             <mxPoint x="585" y="317.82535384728385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.961;exitY=-0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-30" target="M08hCCHfUI6YIoEPK-Oi-7">
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-2" target="M08hCCHfUI6YIoEPK-Oi-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="259.051282051282" y="295" as="sourcePoint" />
             <mxPoint x="490" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-22" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://www.yourlifeupdated.net/wp-content/uploads/2016/11/InfoCert-GoSign.png;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="257" y="470" width="95" height="44" as="geometry" />
+          <mxGeometry x="203.95" y="460" width="95" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-26" value="Azure B2C e Azure AD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="275" y="60" width="80" height="140" as="geometry" />
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-26" value="IAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;align=right;" vertex="1" parent="1">
+          <mxGeometry x="240" y="37" width="118" height="168" as="geometry" />
         </mxCell>
-        <mxCell id="M08hCCHfUI6YIoEPK-Oi-29" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.gear_load" vertex="1" parent="1">
-          <mxGeometry x="227" y="340" width="48.91" height="45" as="geometry" />
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-29" target="M08hCCHfUI6YIoEPK-Oi-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-29" value="Plug-in" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=middle;fillColor=#3B8DF1;shape=mxgraph.gcp2.gear_load" vertex="1" parent="1">
+          <mxGeometry x="227" y="350" width="48.91" height="45" as="geometry" />
         </mxCell>
         <mxCell id="M08hCCHfUI6YIoEPK-Oi-30" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://1000logos.net/wp-content/uploads/2021/12/Dynamics-365-Logo-2016.png;fillColor=none;imageBorder=default;" vertex="1" parent="1">
-          <mxGeometry x="170" y="281" width="138.79" height="78" as="geometry" />
+          <mxGeometry x="140" y="267" width="147.69" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="45" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-9" value="MS Power Apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=right;verticalAlign=top;" vertex="1" parent="M08hCCHfUI6YIoEPK-Oi-35">
+          <mxGeometry width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-3" value="Frontend internet&lt;br&gt;Compensazioni" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://valto.co.uk/wp-content/uploads/2020/03/PowerAppsLogo.png;fillColor=none;verticalAlign=top;horizontal=1;labelBackgroundColor=none;" vertex="1" parent="M08hCCHfUI6YIoEPK-Oi-35">
+          <mxGeometry x="16" y="26" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.817;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-37" target="M08hCCHfUI6YIoEPK-Oi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-37" value="Azure AD" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://seeklogo.com/images/A/azure-active-directory-logo-C196F4B2D3-seeklogo.com.png;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="286.28" y="133" width="47.44" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="M08hCCHfUI6YIoEPK-Oi-38" target="M08hCCHfUI6YIoEPK-Oi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-38" value="Azure B2C" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=https://repository-images.githubusercontent.com/327434583/daf86980-5708-11eb-9c72-b3c94b4eaa36;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="257" y="58" width="88" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="M08hCCHfUI6YIoEPK-Oi-42" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#3B8DF1;shape=mxgraph.gcp2.gear_load;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="302.61" y="294" width="42.39" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
